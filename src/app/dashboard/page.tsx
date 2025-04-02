@@ -46,7 +46,7 @@ const Dashboard = () => {
       </div>
 
       <div className="h-100 border border-1 ag-theme-alpine">
-        <AgGridReact rowData={rowData} columnDefs={colDefs} defaultColDef={{flex: 1}}/>
+        <AgGridReact rowData={rowData} columnDefs={colDefs} defaultColDef={{flex: 1}} pagination={true}/>
       </div>
     </>
   )
